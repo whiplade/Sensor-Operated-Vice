@@ -1,5 +1,4 @@
-
-// Arduino IDE code that controls the microcontroller and the electric components of the project
+Arduino IDE code that controls the microcontroller and the electric components of the project
 
 // Arduino libraries that provide extra functionality for use in integration of hardware with software #include <HX711.h>
 
@@ -22,7 +21,7 @@ int LOADCELL_SCK_PIN = 12;
 
 // variables for lcd
 const int rs = 11, en = 10, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
-LiquidCrystal lcd(rs, en, d4, d5, dá, d7);
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 // function specified by the HX711 library to start load cell measurement HX711 scale;
 float calibration_factor = -7058;
