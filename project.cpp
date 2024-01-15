@@ -1,4 +1,4 @@
-Arduino IDE code that controls the microcontroller and the electric components of the project
+Arduino IDE code that controls the micro-controller and the electric components of the project
 
 // Arduino libraries that provide extra functionality for use in integration of hardware with software #include <HX711.h>
 
